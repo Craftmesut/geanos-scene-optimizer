@@ -27,6 +27,9 @@
 2.  Unzip the content into your Foundry VTT `Data/modules/` directory.
 3.  Launch Foundry VTT and enable **Geano's Scene Optimizer** in "Manage Modules".
 
+Alternatively:
+Enter the Manifest URL `https://github.com/GeanoFee/geanos-scene-optimizer/releases/latest/download/module.json` within Foundry's "Install Module" window.
+
 ## Usage
 
 1.  Navigate to the **Scenes Directory** sidebar.
@@ -47,5 +50,6 @@
 *   **Images**: Converted using HTML5 Canvas `toBlob("image/webp")`.
 *   **Audio**: Converted using `AudioDecoder` -> `AudioEncoder` (Opus) -> `OggOpusMuxer` (Custom JS implementation).
 *   **Streaming**: Audio is processed in chunks to prevent browser freezing, even for hour-long files.
+
 
 
